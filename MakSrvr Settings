@@ -1,0 +1,39 @@
+servertest.ini
+
+
+test_SandboxVars
+  ZombieLore = {
+        Mortality = 4,
+            (1= instant, 2= 0-30", 3= 0-1', 4= 0-12h, 5= 2-3d, 6= 1-2w, 7= never)
+        
+    },
+   
+    NightDarkness = 4,
+        1 (pitch black)
+        2 dark
+        3 normal (Default)
+        4 bright
+        
+    MaxRainFxIntensity = 3
+        1= normal
+        2= moderate
+        3= low
+        
+    HoursForCorpseRemoval = 168
+        Time Before Corpse Removal: Number of in-game hours before zombie corpses are automatically removed from the map.(Replaces former HoursForCorpseRemoval server option).
+        (Default = -1)
+        72 = 3 days
+        168 = 7 days
+        336 = 14 days
+
+    CarGasConsumption = 0.1
+        min = 0
+        default = 1.0
+        max = 100
+        
+    CarSpawnRate = 3
+        1 = none
+        2 = very low 
+        3 = low (Default)
+        4 = normal 
+        5 = high
