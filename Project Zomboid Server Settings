@@ -1,0 +1,28 @@
+XXXX_SandboxVars
+    NightDarkness = 1 - 4,
+        1 (pitch black)
+        2 dark
+        3 normal (Default)
+        4 bright
+
+    DayLength = 1 - 26,
+        1 (15')
+        2 (30)
+        3 (60' aka 1h)
+        4 (2h)
+        5 (3h)
+        ...
+        14 (12h)
+        ...
+        25 (23h)
+        26 real time (1 minute IRL = 1 minute ingame)
+           
+    MaxRainFxIntensity = 1-3
+        1= normal
+        2= moderate
+        3= low
+    GeneratorFuelConsumption = 0.0 - 100 (Default = 1.0)
+        0.0= No fuel needed
+        0.1= 10 times less?
+        1.0= default consumption
+        100.0= Maximum
